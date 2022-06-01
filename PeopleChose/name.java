@@ -16,11 +16,11 @@ class NameList {
     public ArrayList<String> name_list2 = new ArrayList<>();
 
     public NameList() {
-        String[] name_list = {"郭逸", "赵培钧", "王序洋", "徐浩钦", "徐子睿", "师兆楠", "陈涛", "程争", "陈志杰", "董春辉", "胡斌", "吉海龙", "李琦", "刘祥", "李旭涛", "罗艺文", "马文杰",
-                "马珧铨", "孙福林", "宋森", "田旺", "王俊文", "王腾", "王阳阳", "徐斌斌", "段智文", "薛鹏阳", "张家玮", "赵仁山", "赵洋", "曾骏杰",
+        String[] name_list = {"郭逸", "赵培钧", "王序洋", "徐浩钦", "徐子睿", "师兆楠", "陈涛", "陈志杰", "董春辉", "胡斌", "吉海龙", "李琦", "刘祥", "李旭涛", "罗艺文", "马文杰",
+                "马珧铨", "孙福林", "宋森", "田旺", "王俊文", "王腾", "王阳阳", "徐斌斌", "段智文", "薛鹏阳", "张家玮", "赵洋", "曾骏杰",
                 "王一凡", "张若曦", "陈卓", "蒋瑜", "杨雪婷", "张文娟", "刘燕锦", "许颖", "杨丹", "贺洋洋", "李文洁", "乞炜骁", "王越"};
-        String[] name_list_1 = {"郭逸", "赵培钧", "王序洋", "徐浩钦", "徐子睿", "师兆楠", "陈涛", "程争", "陈志杰", "董春辉", "胡斌", "吉海龙", "李琦", "刘祥", "李旭涛", "罗艺文", "马文杰",
-                "马珧铨", "孙福林", "宋森", "田旺", "王俊文", "王腾", "王阳阳", "徐斌斌", "段智文", "薛鹏阳", "张家玮", "赵仁山", "赵洋", "曾骏杰"};
+        String[] name_list_1 = {"郭逸", "赵培钧", "王序洋", "徐浩钦", "徐子睿", "师兆楠", "陈涛", "陈志杰", "董春辉", "胡斌", "吉海龙", "李琦", "刘祥", "李旭涛", "罗艺文", "马文杰",
+                "马珧铨", "孙福林", "宋森", "田旺", "王俊文", "王腾", "王阳阳", "徐斌斌", "段智文", "薛鹏阳", "张家玮", "赵洋", "曾骏杰"};
         String[] name_list_2 = {"王一凡", "张若曦", "陈卓", "蒋瑜", "杨雪婷", "张文娟", "刘燕锦", "许颖", "杨丹", "贺洋洋", "李文洁", "乞炜骁", "王越"};
         name_list0.addAll(Arrays.asList(name_list));
         name_list1.addAll(Arrays.asList(name_list_1));
@@ -71,7 +71,7 @@ class Chose2 extends NameList {
                 while (karSet.size() < number) {
                     int name1 = random.nextInt(name_list0.size());
                     int ran1 = random.nextInt(1, 100);
-                    if (karSet.size() < number - 1 && name1 == 30 && ran1 > 1 && ran1 < 90) {
+                    if (karSet.size() < number - 1 && name1 == 28 && ran1 > 1 && ran1 < 95) {
                         name1 -= 1;
                     }
                     karSet.add(name_list0.get(name1));
@@ -84,7 +84,7 @@ class Chose2 extends NameList {
                 while (karSet2.size() < number2) {
                     int name2 = random.nextInt(name_list1.size());
                     int ran2 = random.nextInt(1, 100);
-                    if (karSet.size() < number - 1 && name2 == 30 && ran2 > 1 && ran2 < 90) {
+                    if (karSet.size() < number - 1 && name2 == 28 && ran2 > 1 && ran2 < 95) {
                         name2 -= 1;
                     }
                     karSet2.add(name_list1.get(name2));
