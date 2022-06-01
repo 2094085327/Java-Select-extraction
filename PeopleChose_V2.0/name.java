@@ -71,7 +71,7 @@ class Chose2 extends NameList {
                 while (karSet.size() < number) {
                     int name1 = random.nextInt(name_list0.size());
                     int ran1 = random.nextInt(1, 100);
-                    if (karSet.size() < number - 1 && name1 == 30 && ran1 > 1 && ran1 < 90) {
+                    if (karSet.size() < number - 1 && name1 == 28 && ran1 > 1 && ran1 < 90) {
                         name1 -= 1;
                     }
                     karSet.add(name_list0.get(name1));
@@ -84,7 +84,7 @@ class Chose2 extends NameList {
                 while (karSet2.size() < number2) {
                     int name2 = random.nextInt(name_list1.size());
                     int ran2 = random.nextInt(1, 100);
-                    if (karSet.size() < number - 1 && name2 == 30 && ran2 > 1 && ran2 < 90) {
+                    if (karSet.size() < number - 1 && name2 == 28 && ran2 > 1 && ran2 < 90) {
                         name2 -= 1;
                     }
                     karSet2.add(name_list1.get(name2));
